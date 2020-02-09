@@ -1,5 +1,5 @@
-% Cations measured 
-% reading in excel file and making vectors cause i hate importing directly 
+% Anions & Cations measured 
+% by emma brown 
 [~,~,raw] = xlsread('Cations_Measured ');
 % Cation & depth vecs- BLS3, LCLS3, SLS2- descending order 
 for i = 2:10
